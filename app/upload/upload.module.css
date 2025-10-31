@@ -1,0 +1,144 @@
+.upload {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 189px 420px 459px;
+  box-sizing: border-box;
+  gap: 61px;
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-normal);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--fs-24);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.dragDropComplaintsPhotosWrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 77px;
+}
+.dragDrop {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.percentTextParent {
+  align-self: stretch;
+  height: 289px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+  text-align: center;
+  font-size: var(--fs-14);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.percentText {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 23px;
+}
+.progressBar {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  z-index: 1;
+  color: var(--color-slategray-100);
+}
+.dropFilesHere {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  display: none;
+  min-width: 95px;
+}
+.progressArea {
+  width: 100px;
+  height: 8px;
+  position: relative;
+  background-color: var(--color-dodgerblue);
+}
+.progressHandle {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  border: 1px dashed var(--color-darkgray);
+}
+.label {
+  cursor: pointer;
+}
+.input {
+  display: none;
+}
+.continuebtn {
+  width: 320px;
+  height: var(--height-56);
+  position: relative;
+  display: none;
+  cursor: pointer;
+  font-size: var(--fs-14);
+  color: var(--color-white);
+}
+.continuebtnChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-blue);
+  width: 100%;
+  height: 100%;
+}
+.continue {
+  position: absolute;
+  top: 20px;
+  left: 130px;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 60px;
+}
+@media screen and (max-width: 725px) {
+  .upload {
+    gap: var(--gap-30);
+    padding-left: 210px;
+    padding-right: 210px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .dragDropComplaintsPhotosWrapper {
+    padding-left: 38px;
+    padding-right: 38px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .upload {
+    gap: 15px;
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .dragDrop {
+    font-size: var(--fs-19);
+    line-height: 21px;
+  }
+}

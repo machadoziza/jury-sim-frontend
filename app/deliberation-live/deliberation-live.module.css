@@ -1,0 +1,304 @@
+.deliberationlive {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 75px var(--padding-80) 51px;
+  box-sizing: border-box;
+  gap: 43.5px;
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-normal);
+  text-align: center;
+  font-size: 32px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.videostage,
+.videostageParent {
+  align-self: stretch;
+  background-color: var(--color-black);
+  max-width: 100%;
+}
+.videostageParent {
+  height: 720px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-8);
+}
+.videostage {
+  width: 1280px;
+  position: relative;
+  display: none;
+}
+.frameParent {
+  width: var(--width-280);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8);
+}
+.juror1,
+.juror1Parent {
+  background-color: var(--color-darkslategray);
+}
+.juror1Parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-80) 104px 65px;
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+.juror10Parent:hover,
+.juror11Parent:hover,
+.juror12Parent:hover,
+.juror1Parent:hover,
+.juror2Parent:hover,
+.juror3Parent:hover,
+.juror4Parent:hover,
+.juror5Parent:hover,
+.juror6Parent:hover,
+.juror7Parent:hover,
+.juror8Parent:hover,
+.juror9Parent:hover {
+  background-color: var(--color-slategray-200);
+}
+.juror1 {
+  height: var(--height-160);
+  width: var(--width-280);
+  position: relative;
+  display: none;
+}
+.deliberationliveJuror1 {
+  position: relative;
+  font-size: var(--fs-14);
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 2;
+}
+.frameGroup,
+.juror4Parent {
+  display: flex;
+  align-items: flex-start;
+}
+.juror4Parent {
+  cursor: pointer;
+  border: 0;
+  padding: 74px 111px 71px;
+  background-color: var(--color-darkslategray);
+  align-self: stretch;
+  justify-content: center;
+  z-index: 1;
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-8);
+}
+.juror2Parent,
+.juror5Parent {
+  cursor: pointer;
+  border: 0;
+  background-color: var(--color-darkslategray);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+.juror2Parent {
+  padding: 85px 105px 60px;
+  align-self: stretch;
+}
+.juror5Parent {
+  padding: 74px 114px 71px 119px;
+}
+.juror3Parent {
+  padding: 78px 116px 67px 117px;
+}
+.juror10Parent,
+.juror3Parent,
+.juror6Parent,
+.juror7Parent {
+  cursor: pointer;
+  border: 0;
+  background-color: var(--color-darkslategray);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+.juror6Parent {
+  padding: 77px 111px 68px 122px;
+}
+.juror10Parent,
+.juror7Parent {
+  align-self: stretch;
+}
+.juror7Parent {
+  padding: 73px 111px 72px;
+}
+.juror10Parent {
+  padding: 83px var(--padding-20) 62px;
+}
+.juror8Parent {
+  padding: 75px 114px 70px;
+}
+.juror11Parent,
+.juror12Parent,
+.juror8Parent,
+.juror9Parent {
+  cursor: pointer;
+  border: 0;
+  background-color: var(--color-darkslategray);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+.juror11Parent {
+  padding: 74px 107px 71px;
+  align-self: stretch;
+}
+.juror12Parent,
+.juror9Parent {
+  padding: 78px 114px 67px 119px;
+}
+.juror12Parent {
+  padding: 74px 113px 71px;
+}
+.deliberationliveInner,
+.deliberationliveJuror12 {
+  text-align: center;
+  font-size: var(--fs-14);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.deliberationliveJuror12 {
+  width: 53px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.deliberationliveInner {
+  width: 1248px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 464px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  height: var(--height-56);
+  flex: 1;
+  position: relative;
+}
+.frameChild {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-blue);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.endDeliberation {
+  position: absolute;
+  top: 20px;
+  left: 107px;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 108px;
+  z-index: 1;
+}
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 572px var(--padding-0) 566px;
+}
+.h1 {
+  margin: 0;
+  width: 142px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+@media screen and (max-width: 1200px) {
+  .deliberationliveInner,
+  .wrapper {
+    padding-left: 232px;
+    padding-right: 232px;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    padding-left: 283px;
+    padding-right: 286px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .h1 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .deliberationlive {
+    gap: 22px;
+    padding-left: var(--padding-40);
+    padding-right: var(--padding-40);
+    box-sizing: border-box;
+  }
+  .deliberationliveInner,
+  .wrapper {
+    padding-left: 116px;
+    padding-right: 116px;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    padding-left: 141px;
+    padding-right: 143px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .deliberationliveInner,
+  .juror11Parent,
+  .juror12Parent,
+  .juror1Parent,
+  .juror2Parent,
+  .juror3Parent,
+  .juror4Parent,
+  .juror5Parent,
+  .juror6Parent,
+  .juror7Parent,
+  .juror8Parent,
+  .juror9Parent,
+  .wrapper {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .h1 {
+    font-size: var(--fs-19);
+    line-height: 21px;
+  }
+}
