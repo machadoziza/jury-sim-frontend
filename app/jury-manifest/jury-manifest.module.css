@@ -54,7 +54,7 @@
 .startDeliberation {
   cursor: pointer;
   border: 0;
-  padding: 21px 99px var(--padding-20);
+  padding: var(--padding-21) 99px var(--padding-20);
   align-self: stretch;
   display: flex;
   align-items: flex-start;
@@ -96,7 +96,7 @@
   }
   .yourMatchedJury {
     font-size: var(--fs-19);
-    line-height: 21px;
+    line-height: var(--lh-21);
   }
   .startDeliberation {
     padding-left: var(--padding-20);

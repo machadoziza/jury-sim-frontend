@@ -15,23 +15,37 @@ body {
   --color-dodgerblue: #3b82f6;
   --color-lightgray: #d1d5db;
   --color-mediumblue: #3333ff;
+  --color-mediumseagreen: rgba(16, 185, 129, 0.6);
   --color-slategray-100: #6b7280;
   --color-slategray-200: #5e6978;
   --color-white: #fff;
-  --color-whitesmoke: #f9fafb;
+  --color-whitesmoke-100: #f9fafb;
+  --color-whitesmoke-200: #f3f4f6;
 
   /* Gap */
   --gap-8: 8px;
+  --gap-16: 16px;
+  --gap-19: 19px;
+  --gap-22: 22px;
+  --gap-23: 23px;
   --gap-30: 30px;
+  --gap-32: 32px;
 
   /* Padding */
   --padding-0: 0px;
   --padding-20: 20px;
+  --padding-21: 21px;
+  --padding-27: 27px;
+  --padding-28: 28px;
+  --padding-32: 32px;
+  --padding-36: 36px;
   --padding-40: 40px;
   --padding-80: 80px;
+  --padding-106: 106px;
 
   /* BorderRadius */
   --br-8: 8px;
+  --br-12: 12px;
 
   /* Font */
   --font-inter: Inter;
@@ -41,13 +55,21 @@ body {
   --fs-16: 16px;
   --fs-19: 19px;
   --fs-24: 24px;
+  --fs-26: 26px;
+  --fs-32: 32px;
 
   /* WidthHeights */
+  --height-30: 30px;
+  --height-48: 48px;
   --height-56: 56px;
   --height-160: 160px;
+  --min-w-150: 150px;
+  --width-48: 48px;
   --width-280: 280px;
 
   /* LineHeights */
+  --lh-21: 21px;
+  --lh-28: 28px;
   --lh-normal: normal;
 
   /* LetterSpacings */

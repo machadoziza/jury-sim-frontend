@@ -1,0 +1,122 @@
+.analyticsPanel,
+.heatmapbox {
+  border-radius: var(--br-12);
+  background-color: var(--color-whitesmoke-200);
+  max-width: 100%;
+}
+.analyticsPanel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-80) 213px 39px;
+  box-sizing: border-box;
+  gap: 47px;
+  text-align: center;
+  font-size: var(--fs-32);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.heatmapbox {
+  width: 800px;
+  height: 400px;
+  position: relative;
+  display: none;
+}
+.parent {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 139px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.label {
+  cursor: pointer;
+}
+.dataContainer {
+  height: 83px;
+  width: 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dataPoint,
+.zip {
+  position: relative;
+  z-index: 1;
+}
+.dataPoint {
+  width: var(--width-48);
+  height: var(--height-48);
+  border-radius: var(--br-8);
+  background-color: var(--color-dodgerblue);
+}
+.zip {
+  margin: 0;
+  width: 49px;
+  height: 35px;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.input {
+  display: none;
+}
+.reportDataParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-23);
+  max-width: 100%;
+}
+.analyticsPanelReportData,
+.reportData {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-28) var(--padding-0) var(--padding-27);
+}
+.analyticsPanelReportData {
+  padding: var(--padding-0) var(--padding-27);
+}
+.reportAbc123pdf {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+@media screen and (max-width: 675px) {
+  .analyticsPanel {
+    gap: var(--gap-23);
+    padding-left: var(--padding-106);
+    padding-right: var(--padding-106);
+    box-sizing: border-box;
+  }
+  .reportAbc123pdf,
+  .zip {
+    font-size: var(--fs-26);
+    line-height: var(--lh-28);
+  }
+}
+@media screen and (max-width: 450px) {
+  .analyticsPanel {
+    padding: 52px var(--padding-20) 25px;
+    box-sizing: border-box;
+  }
+  .reportAbc123pdf,
+  .zip {
+    font-size: var(--fs-19);
+    line-height: var(--lh-21);
+  }
+}

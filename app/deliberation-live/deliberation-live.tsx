@@ -1,12 +1,15 @@
 "use client";
 import type { NextPage } from "next";
 import { useCallback } from "react";
+import { useRouter } from "next/navigation";
 import styles from "./deliberation-live.module.css";
 
 const DeliberationLive: NextPage = () => {
+  const router = useRouter();
+
   const onRectangleButtonClick = useCallback(() => {
-    // Add your code here
-  }, []);
+    router.push("/analytics");
+  }, [router]);
 
   return (
     <div className={styles.deliberationlive}>

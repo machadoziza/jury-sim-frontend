@@ -79,7 +79,7 @@
   align-self: stretch;
   flex: 1;
   position: relative;
-  background-color: var(--color-whitesmoke);
+  background-color: var(--color-whitesmoke-100);
   border: 1px dashed var(--color-darkgray);
 }
 .label {
@@ -139,6 +139,6 @@
   }
   .dragDrop {
     font-size: var(--fs-19);
-    line-height: 21px;
+    line-height: var(--lh-21);
   }
 }

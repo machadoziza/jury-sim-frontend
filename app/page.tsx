@@ -1,5 +1,5 @@
-import Venue from "./venue";
+import Landing from "./landing";
 
 export default function Page() {
-  return <Venue />;
+  return <Landing />;
 }

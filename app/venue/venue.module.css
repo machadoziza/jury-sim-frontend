@@ -11,7 +11,7 @@
   overflow: hidden;
   padding: 230px 451px 533px;
   box-sizing: border-box;
-  gap: 19px;
+  gap: var(--gap-19);
   line-height: var(--lh-normal);
   letter-spacing: var(--ls-normal);
   text-align: center;
@@ -99,8 +99,8 @@
 }
 @media screen and (max-width: 675px) {
   .pickTheCountyWhereTrialWiWrapper {
-    padding-left: 27px;
-    padding-right: 27px;
+    padding-left: var(--padding-27);
+    padding-right: var(--padding-27);
     box-sizing: border-box;
   }
   .matchbtnWrapper,
@@ -122,7 +122,7 @@
   }
   .pickTheCounty {
     font-size: var(--fs-19);
-    line-height: 21px;
+    line-height: var(--lh-21);
   }
   .matchbtn,
   .matchbtnWrapper,

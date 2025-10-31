@@ -1,0 +1,99 @@
+.heatmapbox,
+.heatmapboxParent {
+  border-radius: var(--br-12);
+  background-color: var(--color-whitesmoke-200);
+  max-width: 100%;
+}
+.heatmapboxParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-32) var(--padding-36) 214px;
+  box-sizing: border-box;
+  gap: var(--gap-32);
+}
+.heatmapbox {
+  width: 800px;
+  height: 400px;
+  position: relative;
+  display: none;
+}
+.rectangleParent {
+  width: 689px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 44.5px;
+  max-width: 100%;
+}
+.frameChild {
+  height: var(--height-30);
+  flex: 1;
+  position: relative;
+  background-color: var(--color-mediumseagreen);
+  min-width: var(--min-w-150);
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 555px;
+  padding: var(--padding-0) 66px;
+  box-sizing: border-box;
+}
+.rectangleGroup {
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-23);
+}
+.rectangleDiv {
+  height: var(--height-30);
+  flex: 1;
+  position: relative;
+  background-color: var(--color-mediumseagreen);
+  min-width: 130px;
+  z-index: 1;
+}
+.rectangleWrapper {
+  width: 242px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-21);
+  box-sizing: border-box;
+}
+.frameChild2 {
+  height: var(--height-30);
+  flex: 1;
+  position: relative;
+  background-color: var(--color-mediumseagreen);
+  z-index: 1;
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    gap: var(--gap-22);
+  }
+}
+@media screen and (max-width: 675px) {
+  .frameWrapper {
+    padding-left: 33px;
+    padding-right: 33px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heatmapboxParent {
+    gap: var(--gap-16);
+    padding-top: var(--padding-21);
+    padding-bottom: 139px;
+    box-sizing: border-box;
+  }
+}

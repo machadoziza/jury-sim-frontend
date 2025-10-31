@@ -8,7 +8,7 @@ const Upload: NextPage = () => {
   const router = useRouter();
 
   const onUploadContainerClick = useCallback(() => {
-    router.push("/");
+    router.push("/venue");
   }, [router]);
 
   return (

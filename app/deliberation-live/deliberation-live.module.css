@@ -12,7 +12,7 @@
   line-height: var(--lh-normal);
   letter-spacing: var(--ls-normal);
   text-align: center;
-  font-size: 32px;
+  font-size: var(--fs-32);
   color: var(--color-white);
   font-family: var(--font-inter);
 }
@@ -257,13 +257,13 @@
 }
 @media screen and (max-width: 750px) {
   .h1 {
-    font-size: 26px;
-    line-height: 28px;
+    font-size: var(--fs-26);
+    line-height: var(--lh-28);
   }
 }
 @media screen and (max-width: 675px) {
   .deliberationlive {
-    gap: 22px;
+    gap: var(--gap-22);
     padding-left: var(--padding-40);
     padding-right: var(--padding-40);
     box-sizing: border-box;
@@ -299,6 +299,6 @@
   }
   .h1 {
     font-size: var(--fs-19);
-    line-height: 21px;
+    line-height: var(--lh-21);
   }
 }
