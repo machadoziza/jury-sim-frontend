@@ -8,7 +8,7 @@ const Upload: NextPage = () => {
   const router = useRouter();
 
   return (
-    <div className={styles.upload} onClick={onUploadContainerClick}>
+    <div className={styles.upload}>
       <div className={styles.dragDropComplaintsPhotosWrapper}>
         <h3
           className={styles.dragDrop}
