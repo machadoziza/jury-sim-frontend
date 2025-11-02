@@ -7,10 +7,6 @@ import styles from "./upload.module.css";
 const Upload: NextPage = () => {
   const router = useRouter();
 
-  const onUploadContainerClick = useCallback(() => {
-    router.push("/venue");
-  }, [router]);
-
   return (
     <div className={styles.upload} onClick={onUploadContainerClick}>
       <div className={styles.dragDropComplaintsPhotosWrapper}>
