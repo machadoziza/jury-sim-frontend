@@ -24,7 +24,7 @@ const Upload: NextPage = () => {
           </div>
         </div>
       </section>
-      <div className={styles.continuebtn}>
+      <div className={styles.continuebtn} onClick={() => router.push("/venue")}>
         <div className={styles.continuebtnChild} />
         <div className={styles.continue}>Continue</div>
       </div>
