@@ -92,7 +92,7 @@
   width: 320px;
   height: var(--height-56);
   position: relative;
-  display: none;
+  display: block;
   cursor: pointer;
   font-size: var(--fs-14);
   color: var(--color-white);
