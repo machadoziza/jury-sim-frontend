@@ -4,9 +4,6 @@ const venues = [
   { id: '17031', name: 'Cook County, IL' },
 ];
 
-export default function handler(
-  req: any,
-  res: any
-) {
+module.exports = function handler(req, res) {
   res.status(200).json(venues);
-}
+};
