@@ -1,11 +1,9 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
-
 const venues = [
   { id: '48201', name: 'Harris County, TX' },
   { id: '36061', name: 'New York County, NY' },
   { id: '17031', name: 'Cook County, IL' },
 ];
 
-export default function handler(req: VercelRequest, res: VercelResponse) {
+export default function handler(req, res) {
   res.status(200).json(venues);
 }
